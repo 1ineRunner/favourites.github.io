@@ -42,23 +42,6 @@ body {
   z-index: 5;
 }
 
-/* Logo class */
-.logo {
-  font-size: 2vw;
-  color: var(--text-color);
-  font-weight: 600;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
-
-.logo:hover {
-  transform: scale(1.1);
-}
-
-.logo span {
-  text-shadow: 0 0 25px var (--main-color);
-}
-
 
 #menu-icon {
   font-size: 3vw;
@@ -89,10 +72,6 @@ section {
 }
 
 span {
-  color: var(--main-color);
-}
-
-.logo span {
   color: var(--main-color);
 }
 
@@ -342,9 +321,6 @@ span {
 @media screen and (max-width: 768px) {
   .header {
     padding: 1.5vw 5%;
-  }
-  .logo {
-    font-size: 2vw;
   }
 
 
