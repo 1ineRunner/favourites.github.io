@@ -33,7 +33,7 @@ body {
 
 section {
   min-height: 100vh;
-  padding: -5vw 12% 5vw;
+  padding: -1vw 12% 5vw;
 }
 
 .home {
@@ -41,7 +41,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 4vw;
-  margin-top: -5vw;
+  margin-top: -1vw;
 }
 
 .home-content {
@@ -50,7 +50,7 @@ section {
   align-items: baseline;
   text-align: left;
   justify-content: center;
-  margin-top: -5vw;
+  margin-top: -1vw;
 }
 
 span {
