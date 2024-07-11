@@ -284,7 +284,7 @@ span {
   }
 
   55% {
-    content: "C++Compiler";
+    content: "C++";
     width: 100%;
   }
 
@@ -328,12 +328,12 @@ span {
     width: 100%;
   }
 
-  97% {
+  100% {
     content: "DesmosCalculator";
     width: 100%;
   }
 
-  100% {
+  105% {
     content: "HackerNews";
     width: 100%;
   }
