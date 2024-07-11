@@ -41,6 +41,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 4vw;
+  margin-top: 5vw;
 }
 
 .home-content {
@@ -49,7 +50,7 @@ section {
   align-items: baseline;
   text-align: left;
   justify-content: center;
-  margin-top: 10rem;
+  margin-top: 1rem;
 }
 
 span {
