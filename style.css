@@ -12,10 +12,6 @@ html {
   font-family: "Poppins", sans-serif;
   font-size: 50%;
   overflow-x: hidden;
-
-}
-
-:root {
   --bg-color: #252525;
   --second-bg-color: #112e42;
   --text-color: #ededed;
@@ -299,6 +295,31 @@ span {
 
   210% {
     content: "HackerNews";
+    width: 100%;
+  }
+
+  220% {
+    content: "AlternativeTo";
+    width: 100%;
+  }
+
+  240% {
+    content: "CleanPNG";
+    width: 100%;
+  }
+
+  250% {
+    content: "ILovePDF";
+    width: 100%;
+  }
+
+  260% {
+    content: "DrawIO";
+    width: 100%;
+  }
+
+  270% {
+    content: "10MinuteMail";
     width: 100%;
   }
 }
