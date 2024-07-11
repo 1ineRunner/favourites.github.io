@@ -232,108 +232,108 @@ span {
     width: 100%;
   }
 
-  5% {
+  10% {
     content: "Instagram";
     width: 100%;
   }
 
-  10% {
+  20% {
     content: "Twitter";
     width: 100%;
   }
 
-  15% {
+  30% {
     content: "YouTube";
     width: 100%;
   }
 
-  20% {
+  40% {
     content: "SimpleLogin";
     width: 100%;
   }
 
-  25% {
+  50% {
     content: "ProtonMail";
     width: 100%;
 
   }
 
-  30% {
+  60% {
     content: "Discord";
     width: 100%;
   }
 
-  35% {
+  70% {
     content: "GitHub";
     width: 100%;
   }
 
-  40% {
+  80% {
     content: "NetArchive";
     width: 100%;
   }
 
-  45% {
-    content: "Gmail";
-    width: 100%;
-  }
-
-  50% {
-    content: "CodeAvengers";
-    width: 100%;
-  }
-
-  55% {
-    content: "CppCompiler";
-    width: 100%;
-  }
-
-  60% {
-    content: "VirusTotoal";
-    width: 100%;
-  }
-
-  65% {
-    content: "ZyroAI";
-    width: 100%;
-  }
-
-  70% {
-    content: "QuillBot";
-    width: 100%;
-  }
-
-  75% {
-    content: "GuerillaMail";
-    width: 100%;
-  }
-
-  80% {
-    content: "Thesaurus";
-    width: 100%;
-  }
-
-  85% {
-    content: "CleverBot";
-    width: 100%;
-  }
-
   90% {
-    content: "GeniusLyrics";
-    width: 100%;
-  }
-
-  95% {
-    content: "BigJPG";
+    content: "MEGA";
     width: 100%;
   }
 
   100% {
+    content: "CodeAvengers";
+    width: 100%;
+  }
+
+  110% {
+    content: "CppCompiler";
+    width: 100%;
+  }
+
+  120% {
+    content: "VirusTotoal";
+    width: 100%;
+  }
+
+  130% {
+    content: "ZyroAI";
+    width: 100%;
+  }
+
+  140% {
+    content: "QuillBot";
+    width: 100%;
+  }
+
+  150% {
+    content: "GuerillaMail";
+    width: 100%;
+  }
+
+  160% {
+    content: "Thesaurus";
+    width: 100%;
+  }
+
+  170% {
+    content: "CleverBot";
+    width: 100%;
+  }
+
+  180% {
+    content: "GeniusLyrics";
+    width: 100%;
+  }
+
+  190% {
+    content: "BigJPG";
+    width: 100%;
+  }
+
+  200% {
     content: "DesmosCalculator";
     width: 100%;
   }
 
-  105% {
+  210% {
     content: "HackerNews";
     width: 100%;
   }
