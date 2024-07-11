@@ -228,57 +228,113 @@ span {
 
 @keyframes typing {
   0% {
-    content: "Networking";
+    content: "Facebook";
+    width: 100%;
+  }
+
+  5% {
+    content: "Instagram";
     width: 100%;
   }
 
   10% {
-    content: "LAN";
+    content: "Twitter";
+    width: 100%;
+  }
+
+  15% {
+    content: "YouTube";
     width: 100%;
   }
 
   20% {
-    content: "Systems";
+    content: "SimpleLogin";
     width: 100%;
   }
 
+  25% {
+    content: "ProtonMail";
+    width: 100%;
+
+  }
+
   30% {
-    content: "Integrate";
+    content: "Discord";
+    width: 100%;
+  }
+
+  35% {
+    content: "GitHub";
     width: 100%;
   }
 
   40% {
-    content: "Security";
+    content: "NetArchive";
+    width: 100%;
+  }
+
+  45% {
+    content: "Gmail";
     width: 100%;
   }
 
   50% {
-    content: "Programming";
+    content: "CodeAvengers";
+    width: 100%;
+  }
+
+  55% {
+    content: "C++Compiler";
     width: 100%;
   }
 
   60% {
-    content: "Software";
+    content: "VirusTotoal";
+    width: 100%;
+  }
+
+  65% {
+    content: "ZyroAI";
     width: 100%;
   }
 
   70% {
-    content: "Web";
+    content: "QuillBot";
+    width: 100%;
+  }
+
+  75% {
+    content: "GuerillaMail";
     width: 100%;
   }
 
   80% {
-    content: "Hacking";
+    content: "Thesaurus";
+    width: 100%;
+  }
+
+  85% {
+    content: "CleverBot";
     width: 100%;
   }
 
   90% {
-    content: "InfoSec";
+    content: "GeniusLyrics";
+    width: 100%;
+  }
+
+  95% {
+    content: "BigJPG";
+    width: 100%;
+  }
+
+  97% {
+    content: "DesmosCalculator";
     width: 100%;
   }
 
   100% {
-    content: "Tester";
+    content: "HackerNews";
     width: 100%;
   }
 }
