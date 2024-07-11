@@ -28,20 +28,6 @@ body {
   font-size: 1rem;
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 4vw 12% 4vw;
-  background: rgba(50, 50, 50, 0.3);
-  backdrop-filter: blur(20px);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 5;
-}
-
 
 #menu-icon {
   font-size: 3vw;
