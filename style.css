@@ -185,43 +185,6 @@ span {
   animation: typing 10s steps(10, end) infinite;
 }
 
-@keyframes typing {
-  0% {
-    content: "Networking";
-  }
-  10% {
-    content: "LAN";
-  }
-  20% {
-    content: "Systems";
-  }
-  30% {
-    content: "Integrate";
-  }
-  40% {
-    content: "Security";
-  }
-  50% {
-    content: "Programming";
-  }
-  60% {
-    content: "Software";
-  }
-  70% {
-    content: "Web";
-  }
-  80% {
-    content: "Hacking";
-  }
-  90% {
-    content: "InfoSec";
-  }
-  100% {
-    content: "Tester";
-  }
-}
-
-
 @media screen and (max-width: 768px) {
   .header {
     padding: 1.5vw 5%;
