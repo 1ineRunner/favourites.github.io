@@ -182,7 +182,6 @@ span {
   height: 100%;
   border-left: 3px solid var(--bg-color);
   width: calc(100% + 8px);
-  animation: typing 10s steps(10, end) infinite;
 }
 
 @media screen and (max-width: 768px) {
