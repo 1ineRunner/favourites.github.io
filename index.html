@@ -52,24 +52,46 @@
     </div>
   </section>
   <script>
-    // JavaScript to update text-animation content on hover
     const socialIcons = document.querySelectorAll('.social-icons a');
+    const textAnimationSpan = document.querySelector('.text-animation span');
+
+    const domains = Array.from(socialIcons).map(icon => {
+      const url = icon.getAttribute('href');
+      let domain = url.replace(/^https?:\/\//, '');
+      domain = domain.split('/')[0];
+      return domain;
+    });
+
+    let currentIndex = 0;
+    let intervalId;
+
+    function startTextCycle() {
+      intervalId = setInterval(() => {
+        textAnimationSpan.textContent = 'Visit: ' + domains[currentIndex];
+        currentIndex = (currentIndex + 1) % domains.length;
+      }, 1000); // Adjust the interval (in milliseconds) as needed
+    }
+
+    function stopTextCycle() {
+      clearInterval(intervalId);
+      textAnimationSpan.textContent = 'Visit: ~';
+    }
 
     socialIcons.forEach(icon => {
       icon.addEventListener('mouseover', function() {
+        clearInterval(intervalId);
         const url = this.getAttribute('href');
-        // Extract domain part excluding 'https://'
         let domain = url.replace(/^https?:\/\//, '');
-        domain = domain.split('/')[0]; // Get only the domain part
-
-        document.querySelector('.text-animation span').textContent = 'Visit: ' + domain;
+        domain = domain.split('/')[0];
+        textAnimationSpan.textContent = 'Visit: ' + domain;
       });
 
-      icon.addEventListener('mouseout', function() {
-        // Reset text when mouse leaves the icon
-        document.querySelector('.text-animation span').textContent = 'Visit: ~';
-      });
+      icon.addEventListener('mouseout', startTextCycle);
     });
+
+    // Start text cycle initially
+    startTextCycle();
+
   </script>
 
 </body>
