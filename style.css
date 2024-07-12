@@ -175,7 +175,6 @@ span {
 }
 
 .text-animation span::after {
-  content: "";
   background-color: var(--bg-color);
   position: absolute;
   height: 100%;
