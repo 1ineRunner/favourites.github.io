@@ -31,7 +31,7 @@ body {
 }
 
 section {
-  min-height: 100vh;
+  min-height: 1vh;
   padding: 1vw 1% 5vw;
 }
 
@@ -97,14 +97,14 @@ span {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 5vw;
-  height: 5vw;
+  width: 4vw;
+  height: 4vw;
   background: transparent;
-  border: 0.2rem solid var(--main-color);
-  font-size: 3vw;
-  border-radius: 50%;
+  border: 0.3rem solid var(--main-color);
+  font-size: 3.5vw;
+  border-radius: 99%;
   color: var(--main-color);
-  margin: 1vw 2vw 3vw 0;
+  margin: 1vw 1vw 1vw 0;
   transition: 0.3s ease-in-out;
 }
 
